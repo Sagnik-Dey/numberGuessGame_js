@@ -1,0 +1,109 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(84, 121, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#heading
+{
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #fff;
+    font-family: courgette;
+}
+.container
+{
+    background-color: rgb(17, 78, 192);
+    margin: 100px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(24, 40, 110);
+}
+#numberTxt
+{
+    width: 95%;
+    margin-top: 30px;
+    background-color: rgb(48, 48, 182);
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    color: aqua;
+    letter-spacing: 2px;
+}
+#numberTxt:focus
+{
+    width: 95%;
+    margin-top: 30px;
+    background-color: rgb(48, 48, 182);
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    color: aqua;
+    letter-spacing: 2px;
+    outline: none;
+    border: 3px solid aqua;
+}
+.wrong
+{
+    margin: 20px 0px;
+    margin-right: 20px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    background-color: red;
+    text-align: center;
+}
+.right
+{
+    margin: 20px 0px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+    background-color: limegreen;
+}
+h2, h4, h3
+{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+}
+h3
+{
+    margin-top: 20px;
+}
+label
+{
+    display: block;
+    margin-top: 30px;
+    color: aqua;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+input[type="submit"], input[type="button"]
+{
+    width: 98%;
+    margin-top: 30px;
+    background-color: rgb(32, 32, 138);
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    color: aqua;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+h1::selection, h2::selection, label::selection, input::selection, h4::selection
+{
+    background-color: #333;
+    color: #fff;
+}
